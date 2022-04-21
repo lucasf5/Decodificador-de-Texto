@@ -57,7 +57,7 @@ main {
         cursor: pointer; }
   main .containerEsquerdo {
     background-color: #FFFFFF;
-    padding: 3rem;
+    padding: 2rem;
     width: 400px;
     max-height: 944px;
     height: 100%;
@@ -69,6 +69,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
+    box-sizing: border-box;
     gap: 1rem; }
     main .containerEsquerdo__infos {
       display: flex;
@@ -89,7 +90,8 @@ main {
   main {
     flex-direction: column; }
     main .containerEsquerdo {
-      width: 100%;
+      width: 100vw;
+      padding: 1rem;
       max-width: 693px;
       height: 100%;
       margin-top: 2rem; }
