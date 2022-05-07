@@ -1,21 +1,46 @@
-$Dark-blue-100: #609ED4;
-$Dark-blue-200: #356EA9;
-$Dark-blue-300: #0A3871;
-$Dark-blue-400: #072B61;
+$Dark-blue-100: #609ed4;
+$Dark-blue-200: #356ea9;
+$Dark-blue-300: #0a3871;
+$Dark-blue-400: #072b61;
 $Dark-blue-500: #052051;
 
-$Light-blue-100: #F3F5FC;
-$Light-blue-200: #EFF1FA;
-$Light-blue-300: #E9ECF8;
-$Light-blue-400: #AAB2D5;
-$Light-blue-500: #757FB2;
+$Light-blue-100: #f3f5fc;
+$Light-blue-200: #eff1fa;
+$Light-blue-300: #e9ecf8;
+$Light-blue-400: #aab2d5;
+$Light-blue-500: #757fb2;
 
-$Gray-100: #CED4DA;
-$Gray-200: #ADB5BD;
-$Gray-300: #868E96;
+$Gray-100: #ced4da;
+$Gray-200: #adb5bd;
+$Gray-300: #868e96;
 $Gray-400: #495057;
-$Gray-500: #343A40;
+$Gray-500: #343a40;
 
-$White: #FFFFFF;
+$White: #ffffff;
 
-$Inter: 'Inter', sans-serif;
+$Inter: "Inter", sans-serif;
+@mixin padraoGeral {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexCenterColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin buttonStyle {
+  width: 328px;
+  height: 67px;
+  cursor: pointer;
+  border-radius: 24px;
+}
