@@ -106,10 +106,13 @@ main .containerEsquerdo__botaoEscuro {
   }
   main .containerEsquerdo {
     max-width: 693px;
-    width: 100vw;
+    width: 90vw;
     padding: 1rem;
     height: 100%;
     margin-top: 2rem;
+  }
+  main .containerEsquerdo__botaoEscuro {
+    width: 100%;
   }
   main .containerEsquerdo img {
     display: none;
